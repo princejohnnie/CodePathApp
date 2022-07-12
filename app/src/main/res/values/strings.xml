@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CodePathApp</string>
+    <string name="intro_text">Hello World! My name is John, I am a passionate Android developer and I love Table tennis</string>
+    <string name="button_text">Say Hello</string>
+    <string name="content_desc_dog">Dog</string>
+</resources>
