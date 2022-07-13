@@ -22,7 +22,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
+Here's a walkthrough of the app
 
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='CodePathApp Video Walkthrough' width='' alt='Video Walkthrough' />
 
