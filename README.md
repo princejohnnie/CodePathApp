@@ -24,7 +24,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of the app
 
-<img src='[https://github.com/princejohnnie/CodePathApp/blob/master/CodePathApp%20Video%20Walkthrough.gif]' title='CodePathApp Video Walkthrough' width='' alt='Video Walkthrough' />
+[Walkthrough](https://github.com/princejohnnie/CodePathApp/blob/master/CodePathApp%20Video%20Walkthrough.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -32,7 +32,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 Describe any challenges encountered while building the app.
 
-* [] Implementing Light and Dark theming in the App
+* [ ] Implementing Light and Dark theming in the App
 
 ## License
 
