@@ -24,7 +24,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of the app
 
-[Walkthrough](https://github.com/princejohnnie/CodePathApp/blob/master/CodePathApp%20Video%20Walkthrough.gif)
+[Video Walkthrough](https://github.com/princejohnnie/CodePathApp/blob/master/CodePathApp%20Video%20Walkthrough.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
