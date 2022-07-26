@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <TextView
+        android:id="@+id/helloText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Hello there!"
+        android:textSize="30sp"
+        android:fontFamily="@font/gilroy_bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"/>
+
+    <TextView
+        android:id="@+id/aboutText1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/about_me_text"
+        android:textSize="20sp"
+        android:fontFamily="@font/gilroy_medium"
+        app:layout_constraintStart_toStartOf="@id/helloText"
+        app:layout_constraintEnd_toEndOf="@id/helloText"
+        app:layout_constraintTop_toBottomOf="@id/helloText"
+        />
+
+    <TextView
+        android:id="@+id/aboutText2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/about_me_text2"
+        android:textSize="20sp"
+        android:fontFamily="@font/gilroy_medium"
+        app:layout_constraintStart_toStartOf="@id/aboutText1"
+        app:layout_constraintEnd_toEndOf="@id/aboutText1"
+        app:layout_constraintTop_toBottomOf="@id/aboutText1"
+        />
+
+    <TextView
+        android:id="@+id/aboutText3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/about_me_text3"
+        android:textSize="20sp"
+        android:fontFamily="@font/gilroy_medium"
+        app:layout_constraintStart_toStartOf="@id/aboutText2"
+        app:layout_constraintEnd_toEndOf="@id/aboutText2"
+        app:layout_constraintTop_toBottomOf="@id/aboutText2"
+        />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/github_button"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/github_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/aboutText3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="Check out my Github Profile"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linkedin_button"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:background="@drawable/linkedin_button"
+        app:layout_constraintEnd_toEndOf="@id/github_button"
+        app:layout_constraintStart_toStartOf="@id/github_button"
+        app:layout_constraintTop_toBottomOf="@+id/github_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gilroy_medium"
+            android:text="Check out my LinkedIn Profile"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

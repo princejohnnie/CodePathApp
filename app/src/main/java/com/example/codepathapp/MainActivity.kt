@@ -1,5 +1,6 @@
 package com.example.codepathapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -13,8 +14,14 @@ class MainActivity : AppCompatActivity() {
 
         val helloButton = findViewById<Button>(R.id.helloButton)
         helloButton.setOnClickListener {
-            Log.d("MainActivity", "Button clicked")
             Toast.makeText(this, "Hello to you too!", Toast.LENGTH_SHORT).show()
         }
+
+        val learnMoreButton = findViewById<Button>(R.id.learnMoreButton)
+        learnMoreButton.setOnClickListener {
+            val intent = Intent(this, AboutActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }
