@@ -15,11 +15,12 @@ The following **required** functionality is completed:
 * [ ] Toast with message appears when button is pressed 
 
 The following **optional** features are implemented:
+* [ ] An additional Screen (AboutActivity) was added that showed a more detailed explanation of the developer's introduction and buttons leading to his Github and LinkedIn profile
 
 The following **additional** features are implemented:
 
 * [ ] User can **toggle the App's theme between Dark and Light modes** to show special display themes.
-* [ ] An additional Screen (AboutActivity) was added that showed a more detailed explanation of the developer's introduction and buttons leading to his Github and LinkedIn profile
+
 
 ## Video Walkthrough
 
