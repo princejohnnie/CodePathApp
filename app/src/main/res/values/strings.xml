@@ -1,9 +1,13 @@
 <resources>
     <string name="app_name">CodePathApp</string>
-    <string name="intro_text">Hello! My name is John, I am a passionate Android developer and I love playing Table tennis</string>
-    <string name="button_text">Say Hello</string>
+    <string name="intro_text">Hello! My name is John, I am a passionate Android Developer and I love playing Table tennis</string>
+    <string name="button_hello_text">Say Hello</string>
     <string name="content_desc_profile_image">John</string>
-    <string name="about_me_text">I am an Android Developer looking to learn, build and publish apps with beautiful user interfaces and great user experience</string>
-    <string name="about_me_text2">I believe that CodePath will offer me a wonderful opportunity to learn the core concepts of Android Application Development and gain experience in building Enterprise and Scalable Android apps</string>
-    <string name="about_me_text3">I am looking forward to making the best out of this 10 weeks of learning by connecting with peers, mentors and senior developers in the Android ecosystem. And most importantly, releasing a couple of apps to the Google Play Store</string>
+    <string name="about_me_text">I am an Android Developer looking to learn, build and publish apps with beautiful user interfaces and great user experience.</string>
+    <string name="about_me_text2">I believe that CodePath will offer me a wonderful opportunity to learn the core concepts of Android Application Development and gain experience in building Enterprise and Scalable Android apps.</string>
+    <string name="about_me_text3">I am looking forward to making the best out of this 10 weeks of learning by connecting with peers, mentors and senior developers in the Android ecosystem. And most importantly, releasing a couple of apps to the Google Play Store.</string>
+    <string name="hello_header_text">Hello there!</string>
+    <string name="github_button_text">Check out my Github Profile</string>
+    <string name="linkedin_button_text">Check out my LinkedIn Profile</string>
+    <string name="button_learn_more">Learn More</string>
 </resources>
