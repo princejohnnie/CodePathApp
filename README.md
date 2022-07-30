@@ -20,6 +20,7 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 * [ ] User can **toggle the App's theme between Dark and Light modes** to show special display themes.
+* [ ] Added Styling and a custom Font to the app for a more beautiful user interface
 
 
 ## Video Walkthrough
