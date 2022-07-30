@@ -2,7 +2,7 @@
 
 Submitted by: **John Uzodinma**
 
-**CodePathApp** is an android app that shows an image and introductory message, and allows pressing a button to display a Toast. 
+**CodePathApp** is an android app that shows the developer's image and introductory message about the developer that built the application.
 
 Time spent: **6** hours spent in total
 
@@ -19,6 +19,7 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 * [ ] User can **toggle the App's theme between Dark and Light modes** to show special display themes.
+* [ ] An additional Screen (AboutActivity) was added that showed a more detailed explanation of the developer's introduction and buttons leading to his Github and LinkedIn profile
 
 ## Video Walkthrough
 
